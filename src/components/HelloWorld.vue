@@ -80,16 +80,21 @@
         </a>
       </li>
     </ul>
+    <Acc></Acc>
   </div>
 </template>
 
 <script>
+  import Acc from 'acc'
 export default {
   name: 'HelloWorld',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  components:{
+    Acc
   }
 }
 </script>
