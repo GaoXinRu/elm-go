@@ -5,10 +5,13 @@
     <h2>hahahaha</h2>
     <Acc></Acc>
     <h2>lallalala</h2>
+    <BBC></BBC>
   </div>
 </template>
 
 <script>
+  import BBC from 'bbc'
+  import Acc from 'acc'
 export default {
   name: 'HelloWorld',
   data () {
@@ -17,7 +20,8 @@ export default {
     }
   },
   component:{
-    Acc
+    Acc,
+    BBC
   }
 }
 </script>
